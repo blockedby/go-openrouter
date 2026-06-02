@@ -6,6 +6,18 @@
 
 This library provides unofficial Go client for [Openrouter API](https://openrouter.ai/docs/quick-start)
 
+
+## Fork status / My changes
+
+This repository is a public fork of [`reVrost/go-openrouter`](https://github.com/reVrost/go-openrouter), the original unofficial Go client for the OpenRouter API. The upstream module path and badges below intentionally still point to `github.com/revrost/go-openrouter`; this fork is used for contribution work and evidence, not as a renamed replacement module.
+
+My confirmed contribution in this fork/upstream history:
+
+- [`reVrost/go-openrouter#50`](https://github.com/reVrost/go-openrouter/pull/50) / [`016ba04`](https://github.com/reVrost/go-openrouter/commit/016ba045a0facdd208102c9f25c8fc9515771e92): fixed the `ChatCompletionReasoning.Effort` JSON tag so reasoning-effort requests serialize as `"effort"` instead of `"prompt"`.
+- Fork branch evidence: [`blockedby/go-openrouter@8251ecf`](https://github.com/blockedby/go-openrouter/commit/8251ecf) contains the same fix before it was merged upstream.
+
+Relevant SDK areas for Applied AI / Backend AI Platform work include typed request/response models for chat completions and streaming, embeddings, reasoning controls, tool calling, structured outputs, prompt caching, web search options, multimodal content, and usage/cost metadata. Most of those capabilities are upstream project work; this section is meant to separate upstream ownership from my confirmed contribution.
+
 ## Installation
 
 ```

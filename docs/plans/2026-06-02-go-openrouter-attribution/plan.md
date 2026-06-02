@@ -60,4 +60,4 @@ Executor:
 - Wave 2: slice owner verifies, commits/pushes if safe, writes final report.
 
 ## Execution ledger
-- Task 1: pending.
+- Task 1: done. Report: `reports/aad-implementer-readme-attribution.md`. Verification: `verification/local.md`.
