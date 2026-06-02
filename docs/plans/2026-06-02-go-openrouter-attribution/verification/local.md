@@ -60,3 +60,21 @@ Scan complete; expected benign words may include README API key instructions fro
 ## portfolio-readme-attribution
  M README.md
 ?? docs/plans/2026-06-02-go-openrouter-attribution/verification/
+# Final verification after push/PR
+
+PR: https://github.com/blockedby/go-openrouter/pull/1
+
+## git diff --check HEAD~1..HEAD
+docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md:19: trailing whitespace.
++| |/  
+docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md:27: trailing whitespace.
++|/  
+docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md:29: trailing whitespace.
++|/  
+
+## status
+## portfolio-readme-attribution...origin/portfolio-readme-attribution
+ M docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md
+
+## pr view
+{"baseRefName":"main","commits":[{"authoredDate":"2026-06-02T10:41:28Z","authors":[{"email":"66838646+blockedby@users.noreply.github.com","id":"MDQ6VXNlcjY2ODM4NjQ2","login":"blockedby","name":"Alexandr Kondakov"}],"committedDate":"2026-06-02T10:41:28Z","messageBody":"","messageHeadline":"docs: add go-openrouter attribution task plan","oid":"1f816f8a9387bb621684bd6c5c8da6fcb59e9a17"},{"authoredDate":"2026-06-02T10:42:57Z","authors":[{"email":"66838646+blockedby@users.noreply.github.com","id":"MDQ6VXNlcjY2ODM4NjQ2","login":"blockedby","name":"Alexandr Kondakov"}],"committedDate":"2026-06-02T10:42:57Z","messageBody":"","messageHeadline":"docs: clarify go-openrouter fork attribution","oid":"162f2ba03316942106c2065609867b5d5452f9d4"}],"headRefName":"portfolio-readme-attribution","isDraft":true,"state":"OPEN","url":"https://github.com/blockedby/go-openrouter/pull/1"}
