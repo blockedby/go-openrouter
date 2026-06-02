@@ -16,7 +16,7 @@ merge-base e92faf1ae4448563ef38b0cf08f5455ed673a51d
 | * 10dea39 (tag: v1.5.0) feat: add OpenRouter response caching (#54)
 | | * 5ab74bf (upstream/feat/response-caching) fix: enable response cache for clear requests
 | | * feb40cd feat: add OpenRouter response caching
-| |/  
+| |/
 | * 396bc39 (tag: v1.4.0) fix for incorrect json struct tag for token usage details (#53)
 | * 32cb418 (tag: v1.3.0) feat: add chat completion model fallback
 | * f03e3a7 fix(examples): correct typo in basic chat example (#52)
@@ -24,9 +24,9 @@ merge-base e92faf1ae4448563ef38b0cf08f5455ed673a51d
 | * 381da9b (tag: v1.2.0) feat: bumped go mod
 | * 233c7c5 feat: add audio streaming support and example usage (#49)
 | * 016ba04 fix: correct ChatCompletionReasoning.Effort JSON tag from "prompt" to "effort" (#50)
-|/  
+|/
 | * 8251ecf (origin/fix/reasoning-effort-json-tag) fix: correct ChatCompletionReasoning.Effort JSON tag from "prompt" to "effort"
-|/  
+|/
 * e92faf1 (tag: v1.1.7, origin/main, origin/HEAD, main) feat: support nested objects in Metadata field and add ChatCompletion Trace struct (#45)
 * 5bb1e01 add more usage parameters (#46)
 * f7bd3db (tag: v1.1.6) add native_finish_reason (#43)
@@ -66,11 +66,11 @@ PR: https://github.com/blockedby/go-openrouter/pull/1
 
 ## git diff --check HEAD~1..HEAD
 docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md:19: trailing whitespace.
-+| |/  
++| |/
 docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md:27: trailing whitespace.
-+|/  
++|/
 docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md:29: trailing whitespace.
-+|/  
++|/
 
 ## status
 ## portfolio-readme-attribution...origin/portfolio-readme-attribution
@@ -78,3 +78,25 @@ docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md:29: traili
 
 ## pr view
 {"baseRefName":"main","commits":[{"authoredDate":"2026-06-02T10:41:28Z","authors":[{"email":"66838646+blockedby@users.noreply.github.com","id":"MDQ6VXNlcjY2ODM4NjQ2","login":"blockedby","name":"Alexandr Kondakov"}],"committedDate":"2026-06-02T10:41:28Z","messageBody":"","messageHeadline":"docs: add go-openrouter attribution task plan","oid":"1f816f8a9387bb621684bd6c5c8da6fcb59e9a17"},{"authoredDate":"2026-06-02T10:42:57Z","authors":[{"email":"66838646+blockedby@users.noreply.github.com","id":"MDQ6VXNlcjY2ODM4NjQ2","login":"blockedby","name":"Alexandr Kondakov"}],"committedDate":"2026-06-02T10:42:57Z","messageBody":"","messageHeadline":"docs: clarify go-openrouter fork attribution","oid":"162f2ba03316942106c2065609867b5d5452f9d4"}],"headRefName":"portfolio-readme-attribution","isDraft":true,"state":"OPEN","url":"https://github.com/blockedby/go-openrouter/pull/1"}
+
+# Final verification after whitespace cleanup
+## git diff --check origin/main..HEAD
+docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md:19: trailing whitespace.
++| |/
+docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md:27: trailing whitespace.
++|/
+docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md:29: trailing whitespace.
++|/
+docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md:69: trailing whitespace.
+++| |/
+docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md:71: trailing whitespace.
+++|/
+docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md:73: trailing whitespace.
+++|/
+
+## rg added attribution section safety
+PASS: no matches in added attribution/top section except none.
+
+## status
+## portfolio-readme-attribution...origin/portfolio-readme-attribution
+ M docs/plans/2026-06-02-go-openrouter-attribution/verification/local.md
